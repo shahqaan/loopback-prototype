@@ -1,0 +1,4 @@
+{
+    "presets": ["es2015"],
+    "plugins": ["transform-es2015-modules-commonjs", "syntax-object-rest-spread", "transform-object-rest-spread", "transform-decorators", "syntax-async-functions", "transform-regenerator"]
+}
