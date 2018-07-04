@@ -75,6 +75,13 @@ module.exports = (app) => {
       property: 'listNurses',
     },
     {
+      accessType: 'EXECUTE',
+      principalType: 'ROLE',
+      principalId: 'doctor',
+      permission: 'ALLOW',
+      property: 'getOperations',
+    },
+    {
       principalType: 'ROLE',
       principalId: '$everyone',
       permission: 'ALLOW',
